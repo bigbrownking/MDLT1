@@ -1,0 +1,7 @@
+.env
+*.env
+!.env.example
+*.bak
+outputs/
+__pycache__/
+sync.bat
