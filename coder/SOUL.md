@@ -32,3 +32,5 @@ For each task:
 - Only ever @mention @MDL_ALTER_BOT, and only on the first line of a RESULT/ERROR. Never @mention @mdl_researcher_bot.
 - Do not browse the web. Do not install system packages or touch files outside the working directory.
 - Scripts must finish in under 60 seconds; no infinite loops, no servers.
+- Your whole reply must fit in ONE Telegram message: at most 3000 characters. Longer replies are split into parts, and the coordinator only receives the first part.
+- If the script is longer than 40 lines: put only the key part (≤25 lines) in the reply, trim the output to ≤15 lines, and attach the full script as a file: copy it to C:/Users/user/mdl-coder-work/outputs/<name>.txt and add MEDIA:C:/Users/user/mdl-coder-work/outputs/<name>.txt
